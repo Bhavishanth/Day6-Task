@@ -240,7 +240,7 @@ for (var i = 0; i < numsArr.length; i++)
 }
 
 -----------------------------------------------------------------------------
-9Q. Write a code to print elements in the inner arrays
+10Q. Write a code to print elements in the inner arrays
 -----------------------------------------------------------------------------
 Code:
 var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
@@ -268,7 +268,7 @@ console.log(str_all);
 console.log(inner_array);
 
 -----------------------------------------------------------------------------
-10Q. Write a code to replace the array value — If the index is even, replace it with ‘even’.
+11Q. Write a code to replace the array value — If the index is even, replace it with ‘even’.
 -----------------------------------------------------------------------------
 Code:
 var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
@@ -300,7 +300,7 @@ for (var i = 0; i < numsArr.length; i++) {
 console.log(numsArr);
 
 -----------------------------------------------------------------------------
-11Q. Write a code to replace the array value — If the index is even, replace it with ‘even’.
+12Q. Write a code to replace the array value — If the index is even, replace it with ‘even’.
 -----------------------------------------------------------------------------
 Code:
 var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
@@ -327,7 +327,7 @@ for (var i = (numsArr.length) - 1; i >= 0; i--) {
 console.log(str_all.trimEnd());
 
 -----------------------------------------------------------------------------
-12Q. Write a code to add elements in the inner arrays based on odd or even values
+13Q. Write a code to add elements in the inner arrays based on odd or even values
 -----------------------------------------------------------------------------
 Code:
 var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
