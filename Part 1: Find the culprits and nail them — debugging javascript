@@ -1,0 +1,60 @@
+Q1. Find the culprit
+--------------------------------------------------------
+fix.html
+--------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( “I’m JavaScript!’);
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+----------------------------------------------------------
+Ans:
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+<body onload="fun()">
+    <script>function fun(){
+        alert( "I'm JavaScript!");
+    }
+        </script> 
+ 
+</body>
+</html>
+----------------------------------------------------------
+Q2. Find the culprit and invoke the alert
+----------------------------------------------------------
+fix.html
+----------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+scripts.js
+
+alert(“I’m invoked!”);
+----------------------------------------------------------
+My code:
+HTML file:
+<!DOCTYPE html>
+<html>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+
+scripts.js:
+
+var alt=(function funt(){
+    alert("i'm invoked");
+})();
+----------------------------------------------------------
+Q3. Find the culprit and invoke the alert
+----------------------------------------------------------
